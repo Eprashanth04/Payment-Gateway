@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="styl.css">
+
+</head>
+
+<body bgcolor="">
+    <div class="container"></div>
+    <form action="" method="get">
+        <marquee class="main_heading" behavior="scroll" direction="right" scrollamount="12"><u><h1>Payment Gateway</h1></u></marquee>
+        <fieldset><h2>   User Information:</h2>
+        <p>*Name: <input type="text" name="name" required placeholder="Enter your Name"> </p>
+        Gender:
+        <fieldset>
+        <p>
+            Male <input type="radio" name="gender" id="male">
+            Female <input type="radio" name="gender" id="female">
+        </p>
+    </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="100" rows="5" placeholder="Enter the Address"></textarea></p>
+        <p>*Email: <input type="email" name="email" id="email" required placeholder="@gmail.com"></p>
+        <p>*PinCode: <input type="number" name="PinCode" id="PinCode" required placeholder="Enter the PinCode"></p>
+        <fieldset>
+        <h2> Payment Information:</h2>
+        <p>*Card Type:
+            <select name="card_type" id="card_type" required>
+                <option value="">-----Select a Card Type-----</option>
+                <option value="Visa">Visa</option>
+                <option value="Rupay">Rupay</option>
+                <option value="MasterCard">MasterCard</option>
+            </select>
+            <p>*Card Number: <input type="number" name="Card_number" id="card_number" required placeholder="NNNN-NNNN-NNNN-NNNN"></p>
+        </p>
+        <p>*Expiry Date: <input type="date" name="date" id="date" required></p>
+        <p>*CVV: <input type="password" name="cvv" id="cvv" required placeholder="CVV"></p>
+        <input type="submit"value="Pay Now">
+        </fieldset>
+    </fieldset>
+    </form>
+</body>
+</div>
+</html>
